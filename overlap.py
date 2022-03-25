@@ -10,18 +10,17 @@ turtle.pensize(2)
 def spiral_shape():
     side = 5
     for i in range(180):
-        for j in range(180):
-            r = randint(0, 255)
-            g = randint(0, 255)
-            b = randint(0, 255)
+        r = randint(0, 255)
+        g = randint(0, 255)
+        b = randint(0, 255)
 
-            turtle.colormode(255)
-            turtle.color(r, g, b)
+        turtle.colormode(255)
+        turtle.color(r, g, b)
 
-            turtle.forward(side)
-            turtle.left(45)
+        turtle.forward(side)
+        turtle.left(45)
 
-            side += 2
+        side += 2
     return side
 
 spiral_shape()
