@@ -1,7 +1,17 @@
+'''
+Citation of source code:
+Title: Colorful Spiral
+Author: Estefania Cassingena Navone
+Date: Unknown
+Code Version: Python 3.6
+Availability: Udemy
+'''
+
 import turtle
 import tkinter
 from random import randint
 
+turtle.title('See the spiral!')
 turtle.bgcolor("black")
 
 turtle.speed(0)
