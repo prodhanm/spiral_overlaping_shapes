@@ -28,7 +28,7 @@ def spiral_shape():
         turtle.color(r, g, b)
 
         turtle.forward(side)
-        turtle.left(45)
+        turtle.left(47)
 
         side += 2
     return side
