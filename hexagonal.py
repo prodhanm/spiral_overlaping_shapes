@@ -2,7 +2,7 @@ import turtle
 import tkinter
 from random import randint
 
-turtle.title("Pointy spiral")
+turtle.title("Hexagonal!")
 turtle.bgcolor("black")
 turtle.speed(0)
 turtle.pensize(2)
